@@ -1,13 +1,13 @@
 
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÂúŠÉ1
-g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃúŠÉ1
-g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃúŠÉ1
-g	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÄúŠÉ1
-L	java:S106"+Replace this use of System.out by a logger.(¿Ìûçıÿÿÿÿ8ÜúŠÉ1
-L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8İúŠÉ1
-L	java:S106/"+Replace this use of System.out by a logger.(×üÎùÿÿÿÿ8ãúŠÉ1
-G	java:S1060"+Replace this use of System.out by a logger.(—“©8ãúŠÉ1
-L	java:S1062"+Replace this use of System.out by a logger.(ìíåÒıÿÿÿÿ8çúŠÉ1
-L	java:S106?"+Replace this use of System.out by a logger.(×üÎùÿÿÿÿ8çúŠÉ1
-L	java:S106@"+Replace this use of System.out by a logger.(µö›‰üÿÿÿÿ8èúŠÉ1
-L	java:S106B"+Replace this use of System.out by a logger.(€¢£Áÿÿÿÿÿ8µ”ûŠÉ1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‹¥·ŒÉ1
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Œ¥·ŒÉ1
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Œ¥·ŒÉ1
+g	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Œ¥·ŒÉ1
+L	java:S106"+Replace this use of System.out by a logger.(¿Ìûçıÿÿÿÿ8©¥·ŒÉ1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8«¥·ŒÉ1
+L	java:S106/"+Replace this use of System.out by a logger.(×üÎùÿÿÿÿ8°¥·ŒÉ1
+F	java:S1060"+Replace this use of System.out by a logger.(¢¿‡i8°¥·ŒÉ1
+L	java:S1062"+Replace this use of System.out by a logger.(ìíåÒıÿÿÿÿ8±¥·ŒÉ1
+L	java:S106?"+Replace this use of System.out by a logger.(×üÎùÿÿÿÿ8´¥·ŒÉ1
+L	java:S106@"+Replace this use of System.out by a logger.(¥¬ÔÕûÿÿÿÿ8µ¥·ŒÉ1
+L	java:S106B"+Replace this use of System.out by a logger.(€¢£Áÿÿÿÿÿ8¶¥·ŒÉ1

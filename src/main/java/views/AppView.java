@@ -30,9 +30,9 @@ public class AppView {
     }
 
     public void makeAChoice() {
-        System.out.print("enter the number: ");
-        Scanner scanner = new Scanner(System.in);
         while (true) {
+            System.out.print("enter the number: ");
+            Scanner scanner = new Scanner(System.in);
             try {
                 int ch = scanner.nextInt();
                 if (ch == 5) System.exit(0);

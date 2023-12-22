@@ -45,7 +45,7 @@ public class ReceiverService {
             Response<ResponseBody> res = response.execute();
             if (res.code() != 200) {
                 System.out.println("something wrong...");
-                System.out.println(res.errorBody());
+                System.out.println("reason - " + res.errorBody().string());
             } else {
                 System.out.println("done!");
             }
@@ -61,7 +61,7 @@ public class ReceiverService {
             Response<UserDetail> response = userData.execute();
             if (response.code() != 200) {
                 System.out.println("something wrong...");
-                System.out.println("reason: - " + response.errorBody());
+                System.out.println("reason: - " + response.errorBody().string());
             } else {
                 System.out.println(response.body());
             }
