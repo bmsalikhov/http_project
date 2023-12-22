@@ -7,7 +7,7 @@ public class UserDetail {
     final String email;
 
 
-    public UserDetail(String id, String title, String firstName, String lastName, String email) {
+    public UserDetail(String id, String firstName, String lastName, String email) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -16,9 +16,10 @@ public class UserDetail {
 
     @Override
     public String toString() {
-        return "id: " + id +
-                " name: " + firstName +
-                " " + lastName +
-                email != null ? " email: " + email : "";
+        StringBuilder builder = new StringBuilder();
+        builder.append("id: ").append(id);
+        builder.append(" name: ").append(firstName).append(" ").append(lastName);
+        if (email != null) builder.append(" email: ").append(email);
+        return builder.toString();
     }
 }

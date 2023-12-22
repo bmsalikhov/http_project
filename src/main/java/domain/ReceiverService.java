@@ -3,6 +3,7 @@ package domain;
 import data_sources.ReceiverApiDataSource;
 import dto.UserDto;
 import models.*;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.Response;
 
@@ -29,13 +30,41 @@ public class ReceiverService {
         }
     }
 
+    public void fetchCreated() {
+        Call<UserModel> users = receiverApiDataSource.listCreatedReceivers(1);
+        try {
+            users.execute().body().printList();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void deleteUser(String id) {
+        Call<ResponseBody> response = receiverApiDataSource.deleteUser(id);
+        try {
+            Response<ResponseBody> res = response.execute();
+            if (res.code() != 200) {
+                System.out.println("something wrong...");
+                System.out.println(res.errorBody());
+            } else {
+                System.out.println("done!");
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public void createUser(String firstName, String lastName, String email) {
         UserDto dto = new UserDto(firstName, lastName, email);
         Call<UserDetail> userData = receiverApiDataSource.createUser(dto);
         try {
             Response<UserDetail> response = userData.execute();
-            System.out.println(response.code());
-            System.out.println(response.body());
+            if (response.code() != 200) {
+                System.out.println("something wrong...");
+                System.out.println("reason: - " + response.errorBody());
+            } else {
+                System.out.println(response.body());
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
