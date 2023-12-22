@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-R
-"src/main/java/models/Receiver.java,a\2\a241d9734daaecd4a1d913c4606c2e8c8c57f763
 U
 %src/main/java/models/InRadiusDto.java,8\6\86a4d385b8c58c2cc7d1f83e562c9dea43c60d8c
 e
@@ -20,3 +18,21 @@ Q.idea/sonarlint/securityhotspotstore/8/6/86a4d385b8c58c2cc7d1f83e562c9dea43c60d
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
 w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+Z
+*src/main/java/models/NewReceiverModel.java,e\d\edf36414b66bf772efb88ae0aef8cd422f01a3d6
+W
+'src/main/java/models/ReceiverModel.java,c\3\c37eccec650beccfef3414c4f611cba210751be2
+V
+&src/main/java/models/ResultDetail.java,b\6\b6889f9e947aee0a3e6128eccdf1cb158a2d164d
+Q
+!src/main/java/models/UserDto.java,1\2\127ceecdcafee32a2816e302599f633e8d216c5c
+]
+-src/main/java/models/NewestReceiverModel.java,1\a\1a38163b87be5def9b54cbe4eff2aaf7d595a1f0
+R
+"src/main/java/models/RecModel.java,0\c\0c57b1bc64fa783109008ecdc8b09c288e65817e
+G
+src/main/java/Main.java,e\4\e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
+Y
+)src/main/java/domain/ReceiverService.java,1\0\103281287440981058923578d8d76f425a488854
+P
+ src/main/java/models/Result.java,f\9\f987e2a3d4b9aca2e4f6e23d677a7985a8489989
